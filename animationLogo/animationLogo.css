@@ -1,0 +1,32 @@
+* {
+    margin: ;
+    padding: ;
+    box-sizing: border-box;
+}
+body { 
+    background-color: aquamarine;
+}
+#container{
+    margin-top: 100px;
+    align-content: center;
+    border: 5px solid red;
+    text-align: center;
+
+}
+
+.facebook-logo-png {
+    width: 350px;
+    height:auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 10px solid rgb(255, 255, 255);
+    animation-name: facebook-logo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;  
+}
+@keyframes facebook-logo {
+    0%   {border-color: rgb(255, 255, 255);}
+    50%  {border-color: rgb(0, 4, 255)}
+    100% {border-color: rgb(255, 255, 255);}
+  }
+  

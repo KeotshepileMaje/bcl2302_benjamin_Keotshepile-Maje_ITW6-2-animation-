@@ -1,0 +1,34 @@
+.hero{
+  width:100%;
+  height:100vh;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border: 5px solid red;
+}
+
+
+form {
+   width: 90%;
+   max: width 500px;
+   margin:10px;
+   border: 5px solid red;
+
+}
+.quick-message {
+  margin: 10px;
+  border: 2px solid red;
+}
+input, textarea, select {
+  width: 100%;
+  color: rgb(165, 16, 51);
+  background: yellow;
+ 
+
+}
+label {
+  height:100%;
+  position: left;
+}
